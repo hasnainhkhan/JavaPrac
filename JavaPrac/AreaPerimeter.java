@@ -6,6 +6,7 @@ class AreaPerimeter{
         area = height * width ;
         perimeter = 2 * (height + width);
 
-        System.out.println("Area:"+area + "Perimeter:" +perimeter);
+        System.out.println("Area:"+area + "Perimeter::" +perimeter);
     }
+
 }
