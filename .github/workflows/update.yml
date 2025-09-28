@@ -1,5 +1,9 @@
 name: Update Activity
 
+permissions:
+  contents: write
+
+
 on:
   schedule:
     - cron: "0 0 * * *"   # run daily at midnight
