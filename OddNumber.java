@@ -8,10 +8,11 @@ class OddNumber{
       //      int num = sc.nextInt();
            for(int a = 0; a<100; a++) 
            {
-            if(a%2==0){
+            if(a%2!=0){
                   System.out.println(a);
                   flag = true;
             }
+
            }
            if(flag == true){
             System.out.println("True");
