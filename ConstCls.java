@@ -7,10 +7,10 @@ class ConstCls{
             this.a=a;
             this.b=b;
       }
-      public ConstCls(int a,int b,int c){
-            this.a=a;
-            this.b=b;
-            this.c=c;
+      public ConstCls(int k,int l,int m){
+            a=k; // same name means use this.ref variable otherwise directly
+            b=l;
+            c=m;
             this.result= a+b+c;
             System.out.println(result);
       }
