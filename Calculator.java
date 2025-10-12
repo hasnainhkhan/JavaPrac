@@ -1,8 +1,10 @@
 class Calculator extends Addition{
+      int a = 10;
+      int b = 5;
 
       public static void main(String [] args){
             Divison obj = new Calculator();
-            obj.PrintFun();
+            obj.Div();
 
             Substraction obj1 = new Calculator();
             obj1.PrintFun();
@@ -25,7 +27,9 @@ class Multiplication extends Divison{
 }
 class Divison{
 
-      public void PrintFun(){
-            System.out.println("This is Div");
+      public int Div(){
+            this.a = a;
+            this.b = b;
+            return a/b;
       }
 }
